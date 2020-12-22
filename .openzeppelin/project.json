@@ -1,6 +1,8 @@
 {
   "manifestVersion": "2.2",
-  "contracts": {},
+  "contracts": {
+    "Counter": "Counter"
+  },
   "dependencies": {},
   "name": "BinanceGSN",
   "version": "1.0.0",

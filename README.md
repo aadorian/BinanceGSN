@@ -13,3 +13,8 @@ contract MyCollectible is ERC721 {
 }
 
  npm install  @openzeppelin/gsn-helpers @openzeppelin/contracts-ethereum-package @openzeppelin/upgrades @openzeppelin/cli ganache-cli
+
+
+
+npx ganache-cli
+npx openzeppelin create
