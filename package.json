@@ -1,0 +1,27 @@
+{
+  "name": "BinanceGSN",
+  "version": "1.0.0",
+  "description": "Sending gasless transactions",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadorian/BinanceGSN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadorian/BinanceGSN/issues"
+  },
+  "homepage": "https://github.com/aadorian/BinanceGSN#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@openzeppelin/network": "^0.4.3"
+  }
+}
