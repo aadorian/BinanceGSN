@@ -11,3 +11,5 @@ contract MyCollectible is ERC721 {
     constructor() ERC721("MyCollectible", "MCO") public {
     }
 }
+
+ npm install  @openzeppelin/gsn-helpers @openzeppelin/contracts-ethereum-package @openzeppelin/upgrades @openzeppelin/cli ganache-cli
