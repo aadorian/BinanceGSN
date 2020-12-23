@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "BinanceGSN/Counter": [
+      {
+        "address": "0x4A9fb975249DEbC4F0663A508C9637604932C8b9",
+        "kind": "NonProxy",
+        "bytecodeHash": "c8d0430aa0b007b39d9bf53169933f8bc35ec46703dc0e19490c902bcaedf441"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}

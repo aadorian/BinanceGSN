@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "BinanceGSN/MyCollectible": [
+      {
+        "address": "0xdA447be768aBA80Bd38335c7dA6A9a8f1091f869",
+        "kind": "NonProxy",
+        "bytecodeHash": "66ca418f2d8b82fa72dbf0cca6eecae798a498129bb44ace1d6d0a8cdff4d8f3"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}

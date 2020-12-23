@@ -116,8 +116,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -130,8 +129,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -150,8 +148,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -175,8 +172,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -189,8 +185,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -209,8 +204,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -298,8 +292,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -312,8 +305,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -332,8 +324,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -357,8 +348,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -377,8 +367,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [],
@@ -391,8 +380,7 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function",
-      "constant": true
+      "type": "function"
     },
     {
       "inputs": [
@@ -608,184 +596,212 @@
     "src": "32:194:2"
   },
   "legacyAST": {
-    "absolutePath": "/Users/user/Desktop/BinanceGSN/contracts/MyCollectible.sol",
-    "exportedSymbols": {
-      "MyCollectible": [
-        114
-      ]
+    "attributes": {
+      "absolutePath": "/Users/user/Desktop/BinanceGSN/contracts/MyCollectible.sol",
+      "exportedSymbols": {
+        "MyCollectible": [
+          114
+        ]
+      },
+      "license": "MIT"
     },
-    "id": 115,
-    "license": "MIT",
-    "nodeType": "SourceUnit",
-    "nodes": [
+    "children": [
       {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
         "id": 102,
-        "literals": [
-          "solidity",
-          ">=",
-          "0.4",
-          ".22",
-          "<",
-          "0.9",
-          ".0"
-        ],
-        "nodeType": "PragmaDirective",
+        "name": "PragmaDirective",
         "src": "32:32:2"
       },
       {
-        "absolutePath": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "file": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "attributes": {
+          "SourceUnit": 2021,
+          "absolutePath": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+          "file": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+          "scope": 115,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
         "id": 103,
-        "nodeType": "ImportDirective",
-        "scope": 115,
-        "sourceUnit": 2021,
-        "src": "66:57:2",
-        "symbolAliases": [],
-        "unitAlias": ""
+        "name": "ImportDirective",
+        "src": "66:57:2"
       },
       {
-        "abstract": false,
-        "baseContracts": [
+        "attributes": {
+          "abstract": false,
+          "contractDependencies": [
+            137,
+            881,
+            893,
+            2020,
+            2136,
+            2167,
+            2194
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            114,
+            2020,
+            2167,
+            2194,
+            2136,
+            881,
+            893,
+            137
+          ],
+          "name": "MyCollectible",
+          "scope": 115
+        },
+        "children": [
           {
-            "arguments": null,
-            "baseName": {
-              "contractScope": null,
-              "id": 104,
-              "name": "ERC721",
-              "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2020,
-              "src": "151:6:2",
-              "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ERC721_$2020",
-                "typeString": "contract ERC721"
-              }
+            "attributes": {
+              "arguments": null
             },
-            "id": 105,
-            "nodeType": "InheritanceSpecifier",
-            "src": "151:6:2"
-          }
-        ],
-        "contractDependencies": [
-          137,
-          881,
-          893,
-          2020,
-          2136,
-          2167,
-          2194
-        ],
-        "contractKind": "contract",
-        "documentation": null,
-        "fullyImplemented": true,
-        "id": 114,
-        "linearizedBaseContracts": [
-          114,
-          2020,
-          2167,
-          2194,
-          2136,
-          881,
-          893,
-          137
-        ],
-        "name": "MyCollectible",
-        "nodeType": "ContractDefinition",
-        "nodes": [
-          {
-            "body": {
-              "id": 112,
-              "nodeType": "Block",
-              "src": "216:7:2",
-              "statements": []
-            },
-            "documentation": null,
-            "id": 113,
-            "implemented": true,
-            "kind": "constructor",
-            "modifiers": [
+            "children": [
               {
-                "arguments": [
+                "attributes": {
+                  "contractScope": null,
+                  "name": "ERC721",
+                  "referencedDeclaration": 2020,
+                  "type": "contract ERC721"
+                },
+                "id": 104,
+                "name": "UserDefinedTypeName",
+                "src": "151:6:2"
+              }
+            ],
+            "id": 105,
+            "name": "InheritanceSpecifier",
+            "src": "151:6:2"
+          },
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "name": "",
+              "overrides": null,
+              "scope": 114,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 106,
+                "name": "ParameterList",
+                "src": "175:2:2"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 111,
+                "name": "ParameterList",
+                "src": "216:0:2"
+              },
+              {
+                "children": [
                   {
-                    "argumentTypes": null,
-                    "hexValue": "4d79436f6c6c65637469626c65",
-                    "id": 108,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": true,
-                    "kind": "string",
-                    "lValueRequested": false,
-                    "nodeType": "Literal",
-                    "src": "185:15:2",
-                    "subdenomination": null,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_stringliteral_a8a89d12c9711edf1017e9949143d42c20853b650b6464728464c2532aef512e",
-                      "typeString": "literal_string \"MyCollectible\""
+                    "attributes": {
+                      "argumentTypes": null,
+                      "overloadedDeclarations": [
+                        null
+                      ],
+                      "referencedDeclaration": 2020,
+                      "type": "type(contract ERC721)",
+                      "value": "ERC721"
                     },
-                    "value": "MyCollectible"
+                    "id": 107,
+                    "name": "Identifier",
+                    "src": "178:6:2"
                   },
                   {
-                    "argumentTypes": null,
-                    "hexValue": "4d434f",
-                    "id": 109,
-                    "isConstant": false,
-                    "isLValue": false,
-                    "isPure": true,
-                    "kind": "string",
-                    "lValueRequested": false,
-                    "nodeType": "Literal",
-                    "src": "202:5:2",
-                    "subdenomination": null,
-                    "typeDescriptions": {
-                      "typeIdentifier": "t_stringliteral_10e95f355d033982a91da3f7d2b412395ab9faf178843c62935e3401867865d3",
-                      "typeString": "literal_string \"MCO\""
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "4d79436f6c6c65637469626c65",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "string",
+                      "type": "literal_string \"MyCollectible\"",
+                      "value": "MyCollectible"
                     },
-                    "value": "MCO"
+                    "id": 108,
+                    "name": "Literal",
+                    "src": "185:15:2"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "4d434f",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "string",
+                      "type": "literal_string \"MCO\"",
+                      "value": "MCO"
+                    },
+                    "id": 109,
+                    "name": "Literal",
+                    "src": "202:5:2"
                   }
                 ],
                 "id": 110,
-                "modifierName": {
-                  "argumentTypes": null,
-                  "id": 107,
-                  "name": "ERC721",
-                  "nodeType": "Identifier",
-                  "overloadedDeclarations": [],
-                  "referencedDeclaration": 2020,
-                  "src": "178:6:2",
-                  "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_ERC721_$2020_$",
-                    "typeString": "type(contract ERC721)"
-                  }
-                },
-                "nodeType": "ModifierInvocation",
+                "name": "ModifierInvocation",
                 "src": "178:30:2"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 112,
+                "name": "Block",
+                "src": "216:7:2"
               }
             ],
-            "name": "",
-            "nodeType": "FunctionDefinition",
-            "overrides": null,
-            "parameters": {
-              "id": 106,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "175:2:2"
-            },
-            "returnParameters": {
-              "id": 111,
-              "nodeType": "ParameterList",
-              "parameters": [],
-              "src": "216:0:2"
-            },
-            "scope": 114,
-            "src": "164:59:2",
-            "stateMutability": "nonpayable",
-            "virtual": false,
-            "visibility": "public"
+            "id": 113,
+            "name": "FunctionDefinition",
+            "src": "164:59:2"
           }
         ],
-        "scope": 115,
+        "id": 114,
+        "name": "ContractDefinition",
         "src": "125:100:2"
       }
     ],
+    "id": 115,
+    "name": "SourceUnit",
     "src": "32:194:2"
   },
   "compiler": {
@@ -876,9 +892,8 @@
       "transactionHash": "0xbe25d487407f0983d8ee94a1b76eed1a21586980a9f4fb6ed00bcb53a83c68a9"
     }
   },
-  "schemaVersion": "3.3.1",
-  "updatedAt": "2020-12-23T00:39:32.482Z",
-  "networkType": "ethereum",
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2020-12-23T01:39:55.978Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

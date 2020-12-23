@@ -17,4 +17,6 @@ contract MyCollectible is ERC721 {
 
 
 npx ganache-cli
-npx openzeppelin create
+npx openzeppelin deploy
+npx oz-gsn run-relayer
+
