@@ -1998,10 +1998,16 @@
       "events": {},
       "address": "0x4A9fb975249DEbC4F0663A508C9637604932C8b9",
       "updated_at": 1608687198865
+    },
+    "1608689045368": {
+      "links": {},
+      "events": {},
+      "address": "0xC755d2607d4A0FDc208933D274341Fe00A875D43",
+      "updated_at": 1608689130789
     }
   },
   "schemaVersion": "3.3.3",
-  "updatedAt": "2020-12-23T01:39:55.963Z",
+  "updatedAt": "2020-12-23T02:04:37.395Z",
   "devdoc": {
     "kind": "dev",
     "methods": {

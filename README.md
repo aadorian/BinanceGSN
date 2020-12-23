@@ -20,3 +20,5 @@ npx ganache-cli
 npx openzeppelin deploy
 npx oz-gsn run-relayer
 
+//fund the counter
+npx oz-gsn fund-recipient --recipient 0xCfEB869F69431e42cdB54A4F4f105C19C080A601
